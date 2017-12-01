@@ -1,0 +1,161 @@
+2017-12-01T16:19:59.559-0700 I CONTROL  [initandlisten] MongoDB starting : pid=12208 port=27017 dbpath=C:\data\db\ 64-bit host=Austin-PC
+2017-12-01T16:19:59.559-0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-01T16:19:59.559-0700 I CONTROL  [initandlisten] db version v3.4.10
+2017-12-01T16:19:59.559-0700 I CONTROL  [initandlisten] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+2017-12-01T16:19:59.559-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-01T16:19:59.559-0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-01T16:19:59.560-0700 I CONTROL  [initandlisten] modules: none
+2017-12-01T16:19:59.560-0700 I CONTROL  [initandlisten] build environment:
+2017-12-01T16:19:59.560-0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-01T16:19:59.560-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-01T16:19:59.560-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-01T16:19:59.560-0700 I CONTROL  [initandlisten] options: { systemLog: { destination: "file", path: "c:dataloglog.txt" } }
+2017-12-01T16:19:59.560-0700 W -        [initandlisten] Detected unclean shutdown - C:\data\db\mongod.lock is not empty.
+2017-12-01T16:19:59.561-0700 I -        [initandlisten] Detected data files in C:\data\db\ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-01T16:19:59.561-0700 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2017-12-01T16:19:59.561-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7646M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-12-01T16:20:00.729-0700 I CONTROL  [initandlisten] 
+2017-12-01T16:20:00.729-0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-01T16:20:00.729-0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-01T16:20:00.729-0700 I CONTROL  [initandlisten] 
+2017-12-01T16:20:00.863-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/data/db/diagnostic.data'
+2017-12-01T16:20:00.864-0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-12-01T16:20:01.009-0700 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2017-12-01T16:20:10.595-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:52949 #1 (1 connection now open)
+2017-12-01T16:20:10.596-0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:52949 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-12-01T16:20:30.415-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_0
+2017-12-01T16:20:30.725-0700 I -        [conn1] 14820,17746,44550,20940,0,105,2835,13680,51414,22608,9768,13856,43450,4089,80724,33152,84574,0,7700
+2017-12-01T16:20:30.725-0700 I -        [conn1] 56202,9630,16240,10668,12348,17632,41140,29342
+2017-12-01T16:20:30.725-0700 I -        [conn1] 10788,19530,20636,17136,66738,20034,4572,25812,8246,35076,7040,0,14880,768,11900,1035,39284
+2017-12-01T16:20:30.725-0700 I -        [conn1] 3080,38117,23937,28221,6552,16771,65439,3164,816,10962,49860,15282,43586,8208,52026,11371
+2017-12-01T16:20:30.725-0700 I -        [conn1] 1893,50820,24309,14527,52326,4095,7160,1157,8487,89240,51446,33916,14222,39624,71300,31756,48389
+2017-12-01T16:20:30.725-0700 I -        [conn1] 13776,11264,28140,51624,4902,37338
+2017-12-01T16:20:30.725-0700 I -        [conn1] 6138,264,24300,24480,76048,26730,21088,55836,1400,19530,0,46576,19740,102,1134,6450
+2017-12-01T16:20:30.725-0700 I -        [conn1] 26370,10885,76440,13024,17440,38295,30299,7696,83433,3424,22250,16006,13022
+2017-12-01T16:20:30.726-0700 I -        [conn1] 21280,16400,664,14986,11999,4760,12255,35502,47565,2457,3302,6251,9434
+2017-12-01T16:20:30.726-0700 I -        [conn1] 942,11776,12138,7920,47008,52822,58560,9040
+2017-12-01T16:20:30.726-0700 I -        [conn1] 1410,23717,11102,39216,11650,4928,486,519,29535,8632,208,14256,36889,538,4816
+2017-12-01T16:20:30.726-0700 I -        [conn1] 24956,879,57188,16302,27260,12691,6916,558,31600,21300,47679,4255,73514,30857,44688,23607
+2017-12-01T16:20:30.726-0700 I -        [conn1] 1866,44440,18984,72640,2375,15879,1711,29475,35024,9353,2055,61314
+2017-12-01T16:20:30.726-0700 I -        [conn1] 770,60630,29808,20054,0,30459,12558,6468,58960,63987,502,13585,58900,1677,4050,64701,33768,9452,7772
+2017-12-01T16:20:30.726-0700 I -        [conn1] 27730,7413,21242,28196,46363,1521,40032,21105,14040,4818,3186,25760,36736,1552,20160,46850,73247,1400
+2017-12-01T16:20:30.726-0700 I -        [conn1] 2915,42756,15336,53325,53520,7564,5376,29811,20801,1519,9600,4800
+2017-12-01T16:20:30.726-0700 I -        [conn1] 260,23310,550,550,20213,22755,2530,12600,36855,9410,56280,30520
+2017-12-01T16:20:30.726-0700 I -        [conn1] 6555,2747,14820,94644,19520,41775,23688,67837,10875,33220,551,14040,72400
+2017-12-01T16:20:30.726-0700 I -        [conn1] 7946,30192,35588,46172,52509,9348,28014,13200,15180,7767,444
+2017-12-01T16:20:30.726-0700 I -        [conn1] 33300,47432,14196,7201,32680,14818,12441,14670,78012,13580
+2017-12-01T16:20:30.726-0700 I -        [conn1] 37080,29264,23001,18430,54816,2808,13860,14175,52962,48152,12376,2583,30037,17970,2884
+2017-12-01T16:20:30.726-0700 I -        [conn1] 46102,6672,8148,63745,19068,13728,674,27144,7018,1840,0,22191,49500,14151
+2017-12-01T16:20:30.729-0700 I -        [conn1] NaN,13224,26750,62566,13072,23634,24219
+2017-12-01T16:20:30.729-0700 I -        [conn1] NaN,0,56700,14210,6195,11500,27092,2625,38220,30738,28296,7364,15674
+2017-12-01T16:20:30.729-0700 I -        [conn1] NaN,2410,55384,3430,53369,7497,585,702
+2017-12-01T16:20:30.729-0700 I -        [conn1] NaN,7245,34017,17366,38160,81672,73010,26270,18349,7512,19180,13792,18876,34029,4160,6696,52428
+2017-12-01T16:20:30.729-0700 I -        [conn1] NaN,32966,1582,36125,936,0,49125,84182,1482,21330,50274,27060
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,43824,17520,25194,84574,289,29930,44770,38640,8835
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,16244,18090,18876,14560,64610,3600,9694,7809,3686,31648,1628,3844,13650,26082,2220,42120
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,37356,59706,1060,72071,61760,14824,78474,7264,8172,39673,22724,500,495,22950,2156,45668,13230,44175,5616,5052,13120,14792,47403,174
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,22500,25074,5010,10266,2870,9120,33210,1040,55746,18675,25334,0,14787,15611,192
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,6440,17152,34272,75654,16043,8856,94672,29796,7215,50948,5790,25844,45899,28256,4800,4611,11043,0,44544,8415,10132,26656,18265
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,46694,39780,4214,67080,288,7695,4835,20424,27436,91295,25718,6424
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,4725,19392,68432,34790,13650,30478,35711,10281,1079,45325,34185,47092,68456,11206,35838,64722,25720,5680,16368,17650
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,7175,17150,564,736,9870,2337,2394,17622,90303,29045,2464,24000
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,17160,2480,34257,3210,14276,42515,21488,5754,37944,9108,35868,14320,35322,73621,560,28796,39312,43316,25088
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,308,44454,31415,50778,1760,29472,3400,3968,15120,2397
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,21980,51894,1245,33718,22275,562,16286,4982,21922,41300,21242,9964,10503
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,2072,53361,21070,2805,6500,47286,14787,1098,10450,22752,1242,8832,21900,44408
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,11834,6601,8125,57822,71328,382,46332,912,0,22470,9292,8910,11439
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,47388,9030,52828,68264,13920,2668,12930,31395,5576,54825,1460
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,7011,22103,19684,18650,22484,18306,2928,36928,5586,13800,336,50688,728
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,4212,49560,22308,572,37053,81752,960,16626
+2017-12-01T16:20:30.730-0700 I -        [conn1] NaN,795,36850,35520,38610,566,28392,79336,30171,631,19338,3168,18598,6032,7476,17380,33864
+2017-12-01T16:20:30.733-0700 I -        [conn1] NaN,12276,13040,66392,11781,20871,3652,7125,830,1152,208,72927,2921,8860,7168,21780
+2017-12-01T16:20:30.733-0700 I -        [conn1] NaN,35526,29522,15364,3130,56416,504,12638,30566,1728,65550,77107,1512,51876,29972,1050,10620,61904
+2017-12-01T16:20:30.733-0700 I -        [conn1] NaN,55062,61699,10318,7236,5852,58110,12586,41382,10710,47560
+2017-12-01T16:20:30.733-0700 I -        [conn1] NaN,35964,62370,87930,7616,17460,21280,11346,62600,16968,35475,62109,60662,53922,31488
+2017-12-01T16:20:30.733-0700 I -        [conn1] NaN,29986,19136,21252,3277,43130,4644,57615,27405,11680,46995,7009
+2017-12-01T16:20:30.733-0700 I -        [conn1] NaN,20706,4308,12354,224,441,1425,5544,9218,3770,30268,4310,9800,68295,13226,3728,52768
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,81700,3015,3486,792,14926,15742,13965,15402,34202,41454,10764,6650,63412,55118
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,9163,22806,81008,5382,16677,67008,2739,11594,13962
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,37632,13120,10922,16537,17725,0,17664,33841,5146,204,41607,17820,11580,44864,21590
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,13640,40768,43296,10460,63910,12870,3028,10426,2476
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,15884,5499,2046,74404,30124,76736,182,4675,292,1392,81872,4872,14928,55536,52875
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,35728,6586,42816,67890,2540,1855,564,8120,46248,22640,61938,15980,10972,10116,40880
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,1335,4920,36036,51794,28160,46584,6802,2448,1426,2700,22382,29568,18678,0
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,39744,4144,62181,12103,17472,18509,0,2768,7770,10240,6208,34822
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,300,1218,2175,59849,8400,32663,1660,19698,7524,15778,4959,38003,10878
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,50768,22294,53277,7752,46350,23562,18228,28840,21138,34755,5180,26664,22425,33810,11309,23826
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,19960,30225,1935,6405,14592,2282,62403,41923,6536,27573,7317,2485,38610,1701,10455
+2017-12-01T16:20:30.734-0700 I -        [conn1] NaN,1799,9471,13846,42435,21228,1116,58968,63048,3507,43503,10797,5177
+2017-12-01T16:20:30.735-0700 I -        [conn1] NaN,6260,9628,22890,39600,41382,38336,12012,2952,22575,5952,22883,3951,7488,37989
+2017-12-01T16:20:30.735-0700 I -        [conn1] NaN,82530,16767,27216,6979,28024,6885,1880,5292,1796,12804,24367,12298,34895,67008
+2017-12-01T16:20:30.735-0700 I -        [conn1] NaN,26950,19008,32784,1536,13312,28290,77322,10476,1380,903,1224
+2017-12-01T16:20:30.735-0700 I -        [conn1] NaN,23188,8774,9271,31248,14220,279,5238,485,34848,37310,16485,29820,37948,73247,24708,7216,71668,27587,76342
+2017-12-01T16:20:30.736-0700 I -        [conn1] NaN,78957,65010,30135
+2017-12-01T16:20:30.736-0700 I -        [conn1] NaN,40560,11296,67592,31977,8968,24783
+2017-12-01T16:20:30.736-0700 I -        [conn1] NaN,37996,23976
+2017-12-01T16:20:30.736-0700 I -        [conn1] NaN,28320,33306,20176,84000,37180
+2017-12-01T16:20:30.736-0700 I -        [conn1] NaN,17241,87591,2332,16653,1563,59136,6030,66994
+2017-12-01T16:20:30.736-0700 I -        [conn1] NaN,7236,8869,8987
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,828,14701,20328,30044,25350,9296
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,17712,7878
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,25774,25484,2184,3392,5943
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,6732,46704,31040,45144,13062,8924,9450
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,42453,3030,25056
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,29848,132
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,20292,36810,36278,12654,8967
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,4730,25340,1530,21650,53250,11340,24810,2275
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,14616,77598,27840,32274,15309
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,912,66906,40,12876,40112
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,77309,15808,41230
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,43795,32544,19920,5880
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,40700,7830,12070
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,10340,55893,37152,3120,765,93195
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,12954,20325,16422,43400,820
+2017-12-01T16:20:30.737-0700 I -        [conn1] NaN,27264,11426,17580,38979
+2017-12-01T16:20:30.738-0700 I COMMAND  [conn1] CMD: drop test.products_by_color
+2017-12-01T16:20:30.816-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_0
+2017-12-01T16:20:30.816-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_0
+2017-12-01T16:20:30.816-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_0
+2017-12-01T16:20:30.821-0700 I COMMAND  [conn1] command test.products appName: "MongoDB Shell" command: mapReduce { mapreduce: "products", map: function () {
+      emit(this.department, (this.sales * this.price).to..., reduce: function (keys, values) {
+      values1 = values.map(v => parseFloat(v..., query: {}, out: "products_by_color" } planSummary: COUNT keysExamined:0 docsExamined:0 numYields:8 reslen:126 locks:{ Global: { acquireCount: { r: 157, w: 57, W: 2 } }, Database: { acquireCount: { r: 29, w: 48, R: 20, W: 11 } }, Collection: { acquireCount: { r: 29, w: 50 } } } protocol:op_command 425ms
+2017-12-01T16:24:56.611-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_1
+2017-12-01T16:24:56.837-0700 I -        [conn1] 14820,17746,44550,20940,0,105,2835,13680,51414,22608,9768,13856,43450,4089,80724,33152,84574,0,7700
+2017-12-01T16:24:56.837-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_1
+2017-12-01T16:24:56.879-0700 I COMMAND  [conn1] mr failed, removing collection10075 reduce -> multiple not supported yet
+2017-12-01T16:24:56.880-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_1
+2017-12-01T16:24:56.885-0700 I COMMAND  [conn1] command test.products appName: "MongoDB Shell" command: mapReduce { mapreduce: "products", map: function () {
+      emit(this.department, (this.sales * this.price).to..., reduce: function (keys, values) {
+      values1 = values.map(v => parseFloat(v..., query: {}, out: "products_by_color" } planSummary: COLLSCAN exception: reduce -> multiple not supported yet code:10075 numYields:2 reslen:109 locks:{ Global: { acquireCount: { r: 29, w: 9 } }, Database: { acquireCount: { r: 4, w: 3, R: 6, W: 8 } }, Collection: { acquireCount: { r: 4, w: 5 } } } protocol:op_command 293ms
+2017-12-01T16:27:31.552-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_2
+2017-12-01T16:27:31.940-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_2
+2017-12-01T16:27:32.006-0700 I COMMAND  [conn1] mr failed, removing collection10075 reduce -> multiple not supported yet
+2017-12-01T16:27:32.006-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_2
+2017-12-01T16:27:32.009-0700 I COMMAND  [conn1] command test.products appName: "MongoDB Shell" command: mapReduce { mapreduce: "products", map: function () {
+      emit(this.department, (this.sales * this.price).to..., reduce: function (keys, values) {
+      //values1 = values.map(v => parseFloat..., query: {}, out: "products_by_color" } planSummary: COLLSCAN exception: reduce -> multiple not supported yet code:10075 numYields:2 reslen:109 locks:{ Global: { acquireCount: { r: 29, w: 9 } }, Database: { acquireCount: { r: 4, w: 3, R: 6, W: 8 } }, Collection: { acquireCount: { r: 4, w: 5 } } } protocol:op_command 476ms
+2017-12-01T16:30:58.294-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_3
+2017-12-01T16:30:58.717-0700 I COMMAND  [conn1] CMD: drop test.products_by_color
+2017-12-01T16:30:58.744-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_3
+2017-12-01T16:30:58.744-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_3
+2017-12-01T16:30:58.744-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_3
+2017-12-01T16:30:58.746-0700 I COMMAND  [conn1] command test.products appName: "MongoDB Shell" command: mapReduce { mapreduce: "products", map: function () {
+      emit(this.department, (this.sales * this.price));
+    }, reduce: function (keys, values) {
+      return Array.sum(values);
+    }, query: {}, out: "products_by_color" } planSummary: COUNT keysExamined:0 docsExamined:0 numYields:7 reslen:126 locks:{ Global: { acquireCount: { r: 155, w: 57, W: 2 } }, Database: { acquireCount: { r: 29, w: 48, R: 19, W: 11 } }, Collection: { acquireCount: { r: 29, w: 50 } } } protocol:op_command 469ms
+2017-12-01T16:34:29.556-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_4
+2017-12-01T16:34:29.937-0700 E QUERY    [conn1] Error: The first argument to Array.sum must be an array :
+Array.sum@src/mongo/shell/types.js:214:1
+@:2:28
+2017-12-01T16:34:29.938-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_4
+2017-12-01T16:34:29.977-0700 I COMMAND  [conn1] mr failed, removing collection139 Error: The first argument to Array.sum must be an array :
+Array.sum@src/mongo/shell/types.js:214:1
+@:2:28
+2017-12-01T16:34:29.977-0700 I COMMAND  [conn1] CMD: drop test.tmp.mr.products_4
+2017-12-01T16:34:29.979-0700 I COMMAND  [conn1] command test.products appName: "MongoDB Shell" command: mapReduce { mapreduce: "products", map: function () {
+      emit(this.department, {total: (this.sales * this.p..., reduce: function (keys, values) {
+      return {value: '$' + Array.sum(values...., query: {}, out: "products_by_color" } planSummary: COLLSCAN exception: Error: The first argument to Array.sum must be an array :
+Array.sum@src/mongo/shell/types.js:214:1
+@:2:28
+ code:139 numYields:2 reslen:186 locks:{ Global: { acquireCount: { r: 29, w: 9 } }, Database: { acquireCount: { r: 4, w: 3, R: 6, W: 8 } }, Collection: { acquireCount: { r: 4, w: 5 } } } protocol:op_command 442ms
